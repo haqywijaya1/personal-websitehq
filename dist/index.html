@@ -7,7 +7,7 @@
   <link href="/dist/output.css" rel="stylesheet">
   
 </head>
-<body class="bg-fixed https://mcdn.wallpapersafari.com/medium/1/78/pjiXCR.jpg" style="background-image: url(https://mcdn.wallpapersafari.com/medium/1/78/pjiXCR.jpg)">
+<body class="container mx-auto px-4 bg-fixed https://mcdn.wallpapersafari.com/medium/1/78/pjiXCR.jpg" style="background-image: url(https://mcdn.wallpapersafari.com/medium/1/78/pjiXCR.jpg)">
     <h1 class="text-3xl font-bold underline ">
       <body>
      <!-- Box Card -->
@@ -16,33 +16,51 @@
           src="https://scontent.fdps3-1.fna.fbcdn.net/v/t1.6435-1/102568337_10224027331338206_3348414695351859863_n.jpg?stp=dst-jpg_p320x320&_nc_cat=111&ccb=1-7&_nc_sid=7206a8&_nc_ohc=ZfiE4TALRuoAX_P4f7w&_nc_ht=scontent.fdps3-1.fna&oh=00_AfBKz0D8Jx3FY3Jz30VjWwlfDhHVnQfV4f6xUi-vp3cSCw&oe=64BF9D58"
           alt="photoprofile"
           width="200px"
-         
+                   
         />
 
-        <h3>Muhammad Haqy Wijaya</h3></h1>
+        <h3>Muhammad Haqy Wijaya</h3>
+      </h1>
 
         <h2 class="text-3xl font-medium text-center">
         <p>Hello, I'm otw FullStack Engineer</p></h2>
         
         <ul>
-          <li><button onclick="window.location.href='https://web.facebook.com/muhammad.haqy.wijaya';">My Facebook </button></li>
-          <li><button onclick="window.location.href='https://github.com/haqywijaya1';">My Github</button></li>
+          <style>
+            details > summary {
+              padding: 4px;
+              width: 200px;
+              background-color: blue;
+              border: none;
+              box-shadow: 1px 1px 2px red;
+              cursor: pointer;
+            }
+            
+            details > p {
+              background-color:orange;
+              padding: 4px;
+              margin: 0;
+              box-shadow: 1px 1px 2px blue;
+            }
+            </style>
+          <details>
+            <summary style="color: aquamarine;">Some of My Page Link</summary>
+            <p>
+          <li><button onclick="window.location.href='https://web.facebook.com/muhammad.haqy.wijaya';"> My Facebook </button></li>
+          <li><button onclick="window.location.href='https://github.com/haqywijaya1';"> Github </button></li>
           <li><button onclick="window.location.href='https://www.instagram.com/haqywijaya1/?hl=en';">My Instagram</button></li>
+        </p></details>
+        
         </ul>
-        <!-- Icon -->
-        <div class="icon">
-          <i class="fa-brands fa-facebook fa-2xl"></i>
-          <i class="fa fa-github fa-2xl"></i>
-          <i class="fa-brands fa-instagram fa-2xl"></i>
-          
-        </div>
-
-        <div class="Footer"><p class="text-3xl font-medium ;">&#9749 Thank You &#9749</p></div>
-      </div>
-    
+   
+         
   </body>
-</html>
-
-  
-</body>
+  <!-- Icon -->
+  <div class="icon">
+    <i class="fa-brands fa-facebook fa-2xl"></i>
+    <i class="fa fa-github fa-2xl"></i>
+    <i class="fa-brands fa-instagram fa-2xl"></i>
+    </div>
+  <div class="Footer"><p class="text-3xl font-medium ;">&#9749 Thank You &#9749</p></div>
+      </div>
 </html>
