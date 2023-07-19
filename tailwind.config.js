@@ -5,4 +5,15 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+
+
+  
+}
+
+module.exports = {
+  theme: {
+    container: {
+      center: true,
+    },
+  },
 }
