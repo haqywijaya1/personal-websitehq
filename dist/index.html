@@ -1,91 +1,129 @@
 <!doctype html>
 <html>
-<head style="text-align: center;">
+  <head>
   
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="/dist/output.css" rel="stylesheet">
-  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-</head>
-
- <!-- style for body section -->
-<style >
-    body {   
-    display: block;
-    max-height:100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ce17b737-054f-430a-98b8-f3c34455912a/dg5zvz7-00e7ceb5-ac2d-4b71-b5d7-cb98f06ea5a8.jpg/v1/fill/w_774,h_1032,q_70,strp/langit1_by_mhw1_dg5zvz7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwNyIsInBhdGgiOiJcL2ZcL2NlMTdiNzM3LTA1NGYtNDMwYS05OGI4LWYzYzM0NDU1OTEyYVwvZGc1enZ6Ny0wMGU3Y2ViNS1hYzJkLTRiNzEtYjVkNy1jYjk4ZjA2ZWE1YTguanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SlOxC0lAI4W-1PQg-Kx6JQtYDdrS-jJBibNg3HlPgvY);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-</style>
-
+    <!-- <link href="/dist/output.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  </head>
 <body>
-<!-- Box Card -->
-     
-<style >
-/*to styling profile photo section*/
-img { 
-    border: 5px solid whitesmoke;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(3%); 
-    border-radius: 5%;
-    margin-top: 17px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 7px;
-    
-}
-</style>
-<figure class="border-spacing-1">
-<img
-     src="https://media.licdn.com/dms/image/D5603AQG9r76G70cQ7w/profile-displayphoto-shrink_400_400/0/1680535009283?e=1697673600&v=beta&t=FvwjM4IDYmnTUSwDyv0qw_3xcSmJOQfeIFYzpQg5zOI"
-     alt="photoprofile"
-     width="200px"                   
-        />
-        <figcaption>Muhammad Haqy Wijaya (Haqy)</figcaption>
-      </figure>        
-        <h1 class="text-3xl font-bold text-center">Hello, Welcome to my personal page. &#9749</h1>
-        <p4>This is modified week 3 Indiemakers bootcamp task, 
-          a personal page with some link to several page.</p4>
-        <ul>
-          <style>
-            details > summary {
-              padding: 4px;
-              width: 200px;
-              background-color: blue;
-              border: none;
-              box-shadow: 1px 1px 2px red;
-              cursor: pointer;
-            }
-            
-            details > p {
-              background-color:orange;
-              padding: 4px;
-              margin: 0;
-              box-shadow: 1px 1px 2px blue;
-            }
-            </style>
 
-<style >
-  /*to styling summary section*/
-    summary, details {
-          
-    margin-left: auto;
-    margin-right: auto;
-    color: whitesmoke;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-align: center;
-    padding: 3px;
-    
+    <!-- style for body section -->
+    <style >
+      
+      body {   
+      display: block;
+      max-height:100%;
+      /* margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto; */
+      background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ce17b737-054f-430a-98b8-f3c34455912a/dg5zvz7-00e7ceb5-ac2d-4b71-b5d7-cb98f06ea5a8.jpg/v1/fill/w_774,h_1032,q_70,strp/langit1_by_mhw1_dg5zvz7-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcwNyIsInBhdGgiOiJcL2ZcL2NlMTdiNzM3LTA1NGYtNDMwYS05OGI4LWYzYzM0NDU1OTEyYVwvZGc1enZ6Ny0wMGU3Y2ViNS1hYzJkLTRiNzEtYjVkNy1jYjk4ZjA2ZWE1YTguanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.SlOxC0lAI4W-1PQg-Kx6JQtYDdrS-jJBibNg3HlPgvY);
+      background-size: cover;
+      background-repeat: no-repeat;
+      size: 100vp;
     }
- </style> 
+    </style>
+    
+    <style >
+      /*to styling profile photo section*/
+      img { 
+          border: 5px solid whitesmoke;
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(3%); 
+          border-radius: 5%;
+          margin-top: 17px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 7px;
+          text-align: center;
+      }
+      </style>
+    
+    <style >
+      /*to styling summary & details section*/
+        summary, details {
+            
+        margin-left: auto;
+        margin-right: auto;
+        color: whitesmoke;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5%;
+        }
+     </style>
+    
+    <!-- style for summary as parent and details as child -->
+      <style>
+                details > summary {
+                  padding: 4px;
+                  width: 200px;
+                  background-color: blue;
+                  border: none;
+                  box-shadow: 1px 1px 2px red;
+                  cursor: pointer;
+                }
+                
+                details > p {
+                  background-color:orange;
+                  padding: 4px;
+                  margin: 0;
+                  box-shadow: 1px 1px 2px blue;
+                }
+                </style>
+    
+    <style>
+      table, th, td {
+        /* border:1px solid black; */
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 7px;
+      }
+      </style>
+    <!-- end of styling components -->
+    
+    <!-- content started here -->
+    
+    <!-- to edit photo and description -->
+    <div style="text-align: center;">
+    <figure class="border-spacing-1">
+      <img
+           src="https://media.licdn.com/dms/image/D5603AQG9r76G70cQ7w/profile-displayphoto-shrink_400_400/0/1680535009283?e=1697673600&v=beta&t=FvwjM4IDYmnTUSwDyv0qw_3xcSmJOQfeIFYzpQg5zOI"
+           alt="photoprofile"
+           width="200px"                   
+              />
+              <figcaption>Muhammad Haqy Wijaya (Haqy)</figcaption>
+            </figure>        
+              <h1 class="text-3xl font-bold text-center">Hello, Welcome to my personal page. &#9749</h1>
+              <p4>This is modified week 3 Indiemakers bootcamp task, 
+                a personal page with some link to several page.</p4>
+    </div>
+         
+    <!-- table started here -->
+    <table style="width:auto; margin-left: auto; margin-right: auto;">
+    
+      <tr>
+        <th>
+          <!-- r1c2: link Work experience -->
+          <details style="width: 210px;">
+            <summary >Working Experience:
+              <!-- Icon -->
+              </summary>
+              <div style="background-color: transparent; text-align:left;">
+            <h3>SITA Associate Technician</h3>
+    <p>Aug 2015 - Mar 2022 · 6 yrs 8 mos</p>
+    <p>Praya, West Nusa Tenggara, Indonesia</p>
+    <p>SITA Common Use field operations and maintenance.</p>
+    <p>Skills: Field Technicians · Customer Service · Software Installation · Technical Support</p>
+              </div>
+          </details>      
+        </th>
+    
+        <th>
+          <!-- r1ci: link github etc -->
           <details style="width: 210px;">
             <summary >Link:
               <!-- Icon -->
@@ -101,15 +139,35 @@ img {
           <li><button onclick="window.location.href='https://github.com/haqywijaya1';"> <i style="font-size:24px" class="fa">&#xf09b;</i> </button></li>
           <li><button onclick="window.location.href='https://www.instagram.com/haqywijaya1/?hl=en';"> <i style="font-size:24px" class="fa">&#xf16d;</i></button></li>
             </p>
-
-          </details>       
-        </ul>      
+    
+          </details>      
+        </th>
+        
+        <th>
+          <!-- r1c3: link education: -->
+          <details style="width: 210px;">
+            <summary >Education:
+              <!-- Icon -->
+              </summary>
+            <div style="background-color: transparent; text-align:left;">
+              <h3>Trisakti University</h3>
+              <p>Bachelor's degree, Electrical, Electronics and Communications Engineering</p>
+              <p>Sep 2004 - Oct 2010</p>
+              <p>Grade: ST</p>
+              <p>Activities and societies: Basketball</p>
+            </div>
+          </details>      
+        </th>
+      </tr>
+      
+    </table>
+    
+    <h1 style="text-align: center; text-size-adjust: 20;"> --Thank You-- </h1>
+    <h1 style="text-align: center;">&#9749</h1>    
+       
+    <!-- content ends here -->
+      </body>
+    
   </body>
 
-    <div class="Footer">
-    <p class="text-3xl font-medium space-y-7"> --Thank You-- </p>
-    &#9749
-    </div>
-    </div>
-    </div>
-</html>
+  </html>
